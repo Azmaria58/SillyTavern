@@ -36,8 +36,8 @@ browserLaunch:
   # Avoids using 'localhost' as the hostname in auto mode.
   # Use if you don't have 'localhost' in your hosts file
   avoidLocalhost: false
-# Server port
-port: 8000
+# Server port (changed for Render)
+port: !!int ${PORT}
 # -- SSL options --
 ssl:
   enabled: false
